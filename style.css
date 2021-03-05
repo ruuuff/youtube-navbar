@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #181818;
+  font-family: "Roboto", Arial sans-serif;
+}
+
+nav {
+  background-color: #202020;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+nav > * {
+  height: 40px;
+  margin: 0.5rem 0;
+  padding: 0 1.62rem;
+}
+
+.first-scope,
+.center-scope,
+.last-scope {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-scope .nav-bars {
+  color: white;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem;
+  margin-right: 1.62rem;
+  cursor: pointer;
+}
+
+.first-scope .nav-yt-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-yt-logo svg {
+  height: 1.5rem;
+}
+
+.nav-yt-logo svg .logo-yt-letter {
+  fill: #fff;
+}
+
+.nav-yt-logo span {
+  font-size: 60%;
+  color: rgba(255, 255, 255, 0.6);
+  margin-left: 2px;
+  align-self: flex-start;
+}
+
+.center-scope .input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #121212;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  width: 570px;
+}
+
+.center-scope .input-container input {
+  border: 0;
+  padding: 0.4rem;
+  color: #d0d0d0;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Roboto", Arial sans-serif;
+  background-color: transparent;
+  width: 100%;
+}
+
+.center-scope .input-container a {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  color: #d0d0d0;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+}
+
+.center-scope .search-box {
+  background-color: #313131;
+  color: rgba(255, 255, 255, 0.4);
+  width: 4.12rem;
+  height: calc(100% - 0.5rem + 2px);
+  border-radius: 0 4px 4px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.center-scope .micophone-box {
+  padding: 0.5rem 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+.last-scope ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  color: white;
+}
+
+.last-scope ul li {
+  padding: 0.5rem;
+  cursor: pointer;
+  margin-left: 1.25rem;
+}
+
+.last-scope .profile {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin-left: 1.5rem;
+  overflow: hidden;
+}
+
+.last-scope .profile img {
+  width: 2rem;
+  height: 2rem;
+}
