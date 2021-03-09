@@ -6,6 +6,7 @@ Reprodução da barra de navegação do YouTube.
 
 - HTML
 - CSS
+- JavaScript
 
 # 🖥️ Resultado
 
